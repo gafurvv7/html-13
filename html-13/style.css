@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+  background-color: #cd5d5d;
+}
+
+.container {
+  max-width: 1440px;
+  background-color: yellow;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+span {
+  color: yellow;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parent-box {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 300px;
+  margin-top: 30px;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: space-between;
+}
